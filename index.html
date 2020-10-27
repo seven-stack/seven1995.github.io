@@ -172,31 +172,28 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="标题如何写"><a href="#标题如何写" class="headerlink" title="标题如何写"></a>标题如何写</h2><p>标题是在你所需要的标题内容之前加上#号与空格，并且在该行#之前不能有文字内容。<br>标题有六级，每多一级就多加一个#，例如：</p>
-<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><hr>
+        <h2 id="标题如何写"><a href="#标题如何写" class="headerlink" title="标题如何写"></a>标题如何写</h2><p>标题是在你所需要的标题内容之前加上#号与空格，并且在该行#之前不能有文字内容。<br>标题有六级，每多一级就多加一个#。</p>
+<hr>
 <h2 id="如何引用"><a href="#如何引用" class="headerlink" title="如何引用"></a>如何引用</h2><p>引用是在你所需要引用的内容之间加上大于号&gt;，这同样也得另起一行。</p>
 <blockquote>
 <p>这不是我说 ——鲁迅</p>
 </blockquote>
 <hr>
-<h2 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h2><p>如果我们需要增加代码块来加强说明，则需要在三个反引用号后面加上我们所需的语言，在用三个引用号括起来。<br>例如，’’’c（另起一行）你的代码（另起一行）’’’表示加上的是c的代码块：<br>‘’’c<br>int main()<br>{<br>    return 0;<br>}<br>‘’’</p>
+<h2 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h2><p>如果我们需要增加代码块来加强说明，则需要在三个反引号后面加上我们所需的语言，在用三个反引号括起来。<br>这个反引号就是1旁边那个键，~；<br>例如，<code>c（另起一行）你的代码（另起一行）</code>表示加上的是c的代码块：</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
 <hr>
-<h2 id="脚注"><a href="#脚注" class="headerlink" title="脚注"></a>脚注</h2><p>脚注的形式是[]内部加上^加上你所需要的内容，例如 [ ^ 你的内容]（不要空格）；<br>并且将[ ^ 你的内容]复制到后面并且加上你的相关解释，它会自动在结尾生成。<br>例如，这一波解释[^解释]，</p>
-<p>[^解释]：意思是在观察的基础上进行思考，合理地说明事物变化的原因，事物之间的联系，或者是事物发展的规律。</p>
+<h2 id="脚注"><a href="#脚注" class="headerlink" title="脚注"></a>脚注</h2><p>脚注的形式是[]内部加上^加上你所需要的内容，例如 [ ^ 你的内容]（不要空格）；<br>并且将[ ^ 你的内容]复制到后面并且加上你的相关解释，它会自动在结尾生成。<br>例如，这一波解释[^1]，</p>
+<p>[^1]：意思是在观察的基础上进行思考，合理地说明事物变化的原因，事物之间的联系，或者是事物发展的规律。</p>
 <hr>
-<h2 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h2><p>链接的形式是在方括号中加入你的内容并在后面加上圆括号并给出地址；<br>如<a href="%E7%99%BE%E5%BA%A6%E7%9A%84%E5%9C%B0%E5%9D%80">百度</a>-&gt;<a href="baidu.com">百度</a>;<br>也可以用来回到某个标题；<br>如代码块[## 代码块]，代码块[##代码块]；</p>
+<h2 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h2><p>链接的形式是在方括号中加入你的内容并在后面加上圆括号并给出地址；<br>如<a href="baidu.com">百度</a>;<br>也可以用来回到某个标题；<br>如代码块[##代码块]；</p>
 <hr>
 <h2 id="横线"><a href="#横线" class="headerlink" title="横线"></a>横线</h2><p>横线就是加三根横线</p>
 <hr>
 <p>hahaha</p>
 <hr>
 <h2 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h2><ol>
-<li><p>有序列表<br> 有序列表就是在之前加数字123</p>
-<ol>
-<li>你；</li>
-<li>我；</li>
-<li>他；</li>
-</ol>
+<li><p>有序列表<br> 有序列表就是在之前加数字123<br> 1.你；<br> 2.我；<br> 3.他；</p>
 </li>
 <li><p>无序列表<br> 无序列表就是在之前加横线或者星号</p>
 <ul>
@@ -208,8 +205,6 @@
 <ul>
 <li>他；</li>
 </ul>
-</li>
-<li><p>任务列表<br> 任务列表在之前加横线加方括号 方括号内有空格<br> -[ ] 我；<br> -[ ] 你；<br> -[ ] 他；</p>
 </li>
 </ol>
 <hr>
